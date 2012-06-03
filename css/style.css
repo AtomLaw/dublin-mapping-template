@@ -296,7 +296,7 @@ a.zoomer {
 .wax-legends {
     left: auto;
     right: 10px;
-    height: 125px;
+    /*height: 125px;*/
     overflow-x: hidden;
     bottom: 215px;
     font-size: 11px;
@@ -308,7 +308,7 @@ a.zoomer {
     }
 
 .wax-legends .wax-legend {
-    width: 275px;
+    width: 200px;
     }
 
 .wax-legends .scale img { 
