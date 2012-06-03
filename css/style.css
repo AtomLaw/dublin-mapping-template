@@ -318,7 +318,9 @@ a.zoomer {
 .wax-legend {
     padding: 10px;
     }
-
+.wax-legend label {
+    font-weight: bold;
+    }
 .wax-legend .scale {
     width: 100%;
     margin-bottom: 0;
