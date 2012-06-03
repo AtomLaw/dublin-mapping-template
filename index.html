@@ -26,15 +26,8 @@
     </div>
     
     <div id="projects" class="layers">
-       <a data-control="layer" href="#building">Building Permits, 2011</a>
-       <a data-control="layer" href="#construction">City Construction Projects, 2011</a>
-    </div>
-    <div id="crime" class="layers">
-       <a data-control="layer" href="#crime">Total Crime, 2011</a>
-       <a data-control="layer" href="#robbery">Robbery, 2011</a>
-       <a data-control="layer" href="#theft">Theft, 2011</a>
-       <a data-control="layer" href="#auto">Theft from Auto, 2011</a>
-
+       <a data-control="layer" href="#building">Dublin Transport Nodes</a>
+       <a data-control="layer" href="#construction">Density of Planning Applications 2007 - 2011</a>
     </div>
     <div id="map" class="map">
         <div class="wax-legends">
@@ -105,8 +98,8 @@
                 }                           // the map in milliseconds.
             },
             construction: { 
-                api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-construction.jsonp',
-                center: { zoom: 12, ease: 1000 }
+                api: 'http://a.tiles.mapbox.com/v3/rusty.dublin-planning-apps.jsonp',
+                center: { zoom: 10, ease: 1000 }
             },
             crime: { 
                 api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime.jsonp',
