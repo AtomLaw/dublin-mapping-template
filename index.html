@@ -65,7 +65,7 @@
         // Make a new map in the #map element
         var main = Map('map', {
             // Specify the MapBox API url
-            api: 'http://a.tiles.mapbox.com/v3/rusty.map-m8s2qebc.jsonp',
+            api: 'http://a.tiles.mapbox.com/v3/mapbox.mapbox-light,rusty.dublin-naptan.jsonp',
             center: {
                 lat: 53.3411,      // Intial center point and zoom level.
                 lon: -6.2629,      // To find coordinates and zoom levels
@@ -100,16 +100,8 @@
             construction: { 
                 api: 'http://a.tiles.mapbox.com/v3/rusty.dublin-planning-apps.jsonp',
                 center: { zoom: 10, ease: 1000 }
-            },
-            crime: { 
-                api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime.jsonp',
-                center: { zoom: 13, ease: 1000 }
-             },
-            robbery: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-robbery.jsonp' },
-            theft: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-theft.jsonp' },
-            auto: { api: 'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp' }
-         });
-                 
+            }
+         }); 
     </script>
 </body>
 </html>
